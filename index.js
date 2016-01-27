@@ -2,8 +2,7 @@ module.exports = {
   'extends': [ 'strict' ],
   'env': {
     'node': true,
-    'es6': true,
-    'mocha': true
+    'es6': true
   },
   'rules': {
     // this option enforces minimum and maximum identifier lengths
