@@ -61,7 +61,7 @@ module.exports = {
     'max-statements': [0],
 
     // Do not allow fixme anywhere.
-    "no-warning-comments": [2, { "terms": [fixme], "location": "anywhere" }],
+    "no-warning-comments": [2, { "terms": ['fixme'], "location": "anywhere" }],
 
     // TEMP: Disable the complexity rule for the time being.
     "complexity": 0,
