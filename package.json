@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-fullcube",
+  "version": "0.1.0",
+  "description": "ESLint config for fullcube",
+  "main": "index.js",
+  "author": "Tom Kirkpatrick",
+  "private": true,
+  "homepage": "https://github.com/fullcube/fullcube",
+  "repository": {
+    "type": "git",
+    "url": "github.com/fullcube/eslint-config-fullcube"
+  },
+  "keywords": [
+    "fullcube"
+  ]
+}
