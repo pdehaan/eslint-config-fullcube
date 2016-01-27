@@ -2,7 +2,7 @@
   "name": "eslint-config-fullcube",
   "version": "0.1.0",
   "description": "ESLint config for fullcube",
-  "main": "index.js",
+  "main": "base.js",
   "author": "Tom Kirkpatrick",
   "private": true,
   "homepage": "https://github.com/fullcube/fullcube",
@@ -12,5 +12,12 @@
   },
   "keywords": [
     "fullcube"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-strict": "7.0.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
 }

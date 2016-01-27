@@ -50,6 +50,9 @@ module.exports = {
     // Warn if there is a missing trailing comma on arrays or objects that span multiple lines
     'comma-dangle': [2, 'never'],
 
+    // Never require a space before function opening parenthesis
+    'space-before-function-paren': [2, 'never'],
+
     // Do not enforce camel case property names.
     'camelcase': [2, {'properties': 'never'}],
 
