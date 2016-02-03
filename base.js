@@ -72,6 +72,9 @@ module.exports = {
     "max-params": [2, 7],
 
     // TEMP: Disable the chek of usage of this outside classes.
-    "no-invalid-this": 0
+    "no-invalid-this": 0,
+
+    // Don't prefer Reflect.
+    "prefer-reflect": 0,
   }
 };
