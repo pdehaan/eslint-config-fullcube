@@ -1,9 +1,6 @@
 module.exports = {
-  'env': {
-    'mocha': true
-  },
+  'extends': [ 'strict/mocha' ],
   'rules': {
-    'func-names': 0,
     'prefer-arrow-callback': 0,
     'no-shadow': [2, {'allow': ['err', 'res']}]
   }
