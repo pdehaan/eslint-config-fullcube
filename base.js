@@ -1,10 +1,8 @@
 module.exports = {
   'extends': [ 'strict' ],
-  'env': {
-    'node': true,
-    'es6': true
-  },
   'rules': {
+    // Blacklist certain identifiers to prevent them being used
+    'id-blacklist': 0,
     // this option enforces minimum and maximum identifier lengths
     // (variable names, property names etc.)
     'id-length': [
@@ -41,6 +39,9 @@ module.exports = {
     // disallow the use of magic numbers
     'no-magic-numbers': [0],
 
+    // disallow declaration of variables already declared in the outer scope (but allow err and res)
+    'no-shadow': [2, {'allow': ['err', 'res']}],
+
     // require parens in arrow function arguments only when needed
     'arrow-parens': [2, 'as-needed'],
 
@@ -62,6 +63,9 @@ module.exports = {
     // Disable max-statements rule.
     'max-statements': [0],
 
+    // enforce newline after each call when chaining the calls
+    'newline-per-chained-call': 0,
+
     // Allow fixme, todo etc.
     "no-warning-comments": 0,
 
@@ -76,5 +80,8 @@ module.exports = {
 
     // Don't prefer Reflect.
     "prefer-reflect": 0,
+
+    // enforce spacing around embedded expressions of template strings
+    "template-curly-spacing": [2, "never"]
   }
 };
