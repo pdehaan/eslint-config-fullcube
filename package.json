@@ -5,7 +5,7 @@
   "main": "base.js",
   "author": "Tom Kirkpatrick",
   "private": true,
-  "homepage": "https://github.com/fullcube/fullcube",
+  "homepage": "https://github.com/fullcube/eslint-config-fullcube",
   "repository": {
     "type": "git",
     "url": "github.com/fullcube/eslint-config-fullcube"
@@ -14,12 +14,9 @@
     "fullcube"
   ],
   "dependencies": {
-    "eslint-config-strict": "https://github.com/fullcube/eslint-config-strict/tarball/f235fa38289b17e305a65be38ff9cfdf4c1eb31c"
-  },
-  "devDependencies": {
-    "eslint": "^2.0.0-rc.0"
+    "eslint-config-strict": "^8.4.0"
   },
   "peerDependencies": {
-    "eslint": "^2.0.0-rc.0"
+    "eslint": "^2.2.0"
   }
 }
