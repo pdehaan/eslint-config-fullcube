@@ -14,9 +14,9 @@
     "fullcube"
   ],
   "dependencies": {
-    "eslint-config-strict": "^8.4.0"
+    "eslint-config-strict": "8.4.0"
   },
   "peerDependencies": {
-    "eslint": "^2.2.0"
+    "eslint": "2.2.0"
   }
 }
