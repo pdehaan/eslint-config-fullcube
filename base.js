@@ -82,6 +82,15 @@ module.exports = {
     "prefer-reflect": 0,
 
     // enforce spacing around embedded expressions of template strings
-    "template-curly-spacing": [2, "never"]
+    "template-curly-spacing": [2, "never"],
+
+    // allow confusing arrow function returns when wrapped in parens.
+    "no-confusing-arrow": [2, { "allowParens": true } ],
+
+    // Allow inline comments.
+    "no-inline-comments": 0,
+
+    // Allow padding at the top and bottom of blocks.
+    "padded-blocks": 0
   }
 };
