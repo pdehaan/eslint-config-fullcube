@@ -1,10 +1,6 @@
 module.exports = {
-  extends: [ 'standard' ],
+  extends: [ 'fullcube' ],
   env: {
     mocha: true
-  },
-  rules: {
-    'brace-style': [2, 'stroustrup'],
-    'arrow-parens': [2, 'as-needed']
   }
 };
