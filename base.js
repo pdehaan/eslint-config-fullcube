@@ -34,63 +34,69 @@ module.exports = {
         'always',
     ],
     // allow/disallow dangling underscores in identifiers
-    'no-underscore-dangle': [0],
+    'no-underscore-dangle': ['off'],
 
     // disallow the use of magic numbers
-    'no-magic-numbers': [0],
+    'no-magic-numbers': ['off'],
 
     // disallow declaration of variables already declared in the outer scope (but allow err and res)
-    'no-shadow': [2, {'allow': ['err', 'res']}],
+    'no-shadow': ['error', {'allow': ['err', 'res']}],
 
     // require parens in arrow function arguments only when needed
-    'arrow-parens': [2, 'as-needed'],
+    'arrow-parens': ['error', 'as-needed'],
 
     // Enforces Stroustrup style brace formatting
-    'brace-style': [2, 'stroustrup'],
+    'brace-style': ['error', 'stroustrup'],
 
     // Warn if there is a missing trailing comma on arrays or objects that span multiple lines
-    'comma-dangle': [2, 'never'],
+    'comma-dangle': ['error', 'never'],
 
     // Never require a space before function opening parenthesis
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': ['error', 'never'],
 
     // Do not enforce camel case property names.
-    'camelcase': [2, {'properties': 'never'}],
+    'camelcase': ['error', {'properties': 'never'}],
 
     // Disable use strict rule.
-    'strict': [0],
+    'strict': ['off'],
 
     // Disable max-statements rule.
-    'max-statements': [0],
+    'max-statements': ['off'],
 
     // enforce newline after each call when chaining the calls
-    'newline-per-chained-call': 0,
+    'newline-per-chained-call': ['off'],
 
     // Allow fixme, todo etc.
-    "no-warning-comments": 0,
+    'no-warning-comments': ['off'],
 
     // TEMP: Disable the complexity rule for the time being.
-    "complexity": 0,
+    'complexity': ['off'],
 
     // TEMP: Increase the allowed maximum number of function paramaters for the time being.
-    "max-params": [2, 7],
+    'max-params': ['error', 7],
 
     // TEMP: Disable the chek of usage of this outside classes.
-    "no-invalid-this": 0,
+    'no-invalid-this': ['off'],
 
     // Don't prefer Reflect.
-    "prefer-reflect": 0,
+    'prefer-reflect': ['off'],
 
     // enforce spacing around embedded expressions of template strings
-    "template-curly-spacing": [2, "never"],
+    'template-curly-spacing': ['error', 'never'],
 
     // allow confusing arrow function returns when wrapped in parens.
-    "no-confusing-arrow": [2, { "allowParens": true } ],
+    'no-confusing-arrow': ['error', { 'allowParens': true } ],
 
     // Allow inline comments.
-    "no-inline-comments": 0,
+    'no-inline-comments': ['off'],
 
     // Allow padding at the top and bottom of blocks.
-    "padded-blocks": 0
+    'padded-blocks': ['off'],
+
+    // Require no semi colon.
+    'semi': ['error', 'never'],
+
+    // Require dangling commas.
+    'comma-dangle': [ 'error', 'always-multiline' ]
   }
 };
