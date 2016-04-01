@@ -1,7 +1,10 @@
 module.exports = {
-  'extends': [ 'strict/mocha' ],
-  'rules': {
-    'prefer-arrow-callback': 0,
-    'no-shadow': [2, {'allow': ['err', 'res']}]
+  extends: [ 'standard' ],
+  env: {
+    mocha: true
+  },
+  rules: {
+    'brace-style': [2, 'stroustrup'],
+    'arrow-parens': [2, 'as-needed']
   }
 };
