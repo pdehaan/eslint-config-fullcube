@@ -4,6 +4,7 @@ module.exports = {
     'mocha': true,
   },
   'rules': {
-    'prefer-arrow-callback': 0,
+    'prefer-arrow-callback': ['off'],
+    'no-shadow': ['error', {'allow': ['err', 'res']}]
   }
 };
