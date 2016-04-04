@@ -1,6 +1,9 @@
 module.exports = {
   'extends': [ 'fullcube' ],
   'env': {
-    'mocha': true
+    'mocha': true,
+  },
+  'rules': {
+    'prefer-arrow-callback': 0,
   }
 };
