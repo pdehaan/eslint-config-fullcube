@@ -5,6 +5,7 @@ module.exports = {
   },
   'rules': {
     'prefer-arrow-callback': ['off'],
-    'no-shadow': ['error', {'allow': ['err', 'res']}]
+    'no-shadow': ['error', {'allow': ['err', 'res']}],
+    'func-names': ['off']
   }
 };
