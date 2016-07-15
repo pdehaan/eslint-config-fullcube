@@ -15,9 +15,8 @@
   ],
   "dependencies": {
     "eslint-config-strict": "^9.1.0",
-    "eslint-plugin-filenames": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.0.1"
+    "eslint": "^2.11.1"
   }
 }
