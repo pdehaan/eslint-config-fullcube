@@ -1,6 +1,6 @@
 {
   "name": "@fullcube/eslint-config-fullcube",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint config for fullcube",
   "main": "base.js",
   "author": "Tom Kirkpatrick",
