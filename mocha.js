@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': [ 'fullcube' ],
+  'extends': [ '@fullcube/eslint-config-fullcube' ],
   'env': {
     'mocha': true,
   },
