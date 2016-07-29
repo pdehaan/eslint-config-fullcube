@@ -2,20 +2,10 @@ module.exports = {
   'extends': [ 'strict' ],
   'rules': {
     // Blacklist certain identifiers to prevent them being used
-    'id-blacklist': 0,
+    'id-blacklist': ['off'],
     // this option enforces minimum and maximum identifier lengths
     // (variable names, property names etc.)
-    'id-length': [
-        2,
-        {
-            // identifiers must be a minimum of 3 characters
-            'min': 3,
-            // ... and a max of 50
-            'max': 50,
-            // ... but `i`, `x`, and `y` are allowed
-            'exceptions': [ 'i', 'x', 'y', '_', 'cb', 'lt', 'gt', 'or', 'id', 'in', 'is', 't', 'to', 'db', 'fs', 'ip', 'js', 'Fc' ]
-        },
-    ],
+    'id-length': ['off'],
     // require identifiers to match the provided regular expression
     'id-match': [
         2,
