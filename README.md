@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-$ npm install --save-dev eslint @fullcube/eslint-config-fullcube
+$ npm install --save-dev eslint eslint-config-fullcube
 ```
 
 ## Usage
@@ -14,8 +14,8 @@ Add one of the following lines to your project's `.eslintrc`:
 
 ```js
 {
-	"extends": "@fullcube/eslint-config-fullcube",
-	"extends": "@fullcube/eslint-config-fullcube/mocha"
+	"extends": "fullcube",
+	"extends": "fullcube/mocha"
 }
 ```
 
