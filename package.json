@@ -7,7 +7,7 @@
   "homepage": "https://github.com/fullcube/eslint-config-fullcube",
   "repository": {
     "type": "git",
-    "url": "github.com/fullcube/eslint-config-fullcube"
+    "url": "github:fullcube/eslint-config-fullcube"
   },
   "keywords": [
     "fullcube",
